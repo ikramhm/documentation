@@ -4,8 +4,9 @@ Creating a VM Oracle box is tiresome; if you want a quick interactive shell, you
 
 In this example, I am submitting the commands used to run a Redhat Linux container.
 
-1. Download Docker
-2. Create a Dockerfile, name it 'Dockerfile'
+1. Download Docker from https://www.docker.com/products/docker-desktop/ or https://docs.docker.com/get-docker/ 
+   `docker --version` once its downloaded and set up to ensure that everything is as expected
+3. Create a Dockerfile, name it 'Dockerfile'
 
 ```
 # Use Red Hat Universal Base Image 8 as a base
